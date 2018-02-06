@@ -955,7 +955,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Home__["default"], null), document.getElementbyID('app'));
+__WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Home__["a" /* default */], null), document.getElementById('app'));
 
 /***/ }),
 /* 16 */
@@ -18280,13 +18280,13 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-var Home = function (_Components) {
-  _inherits(Home, _Components);
+var Home = function (_Component) {
+  _inherits(Home, _Component);
 
   function Home() {
     _classCallCheck(this, Home);
 
-    return _possibleConstructorReturn(this, _Components.apply(this, arguments));
+    return _possibleConstructorReturn(this, _Component.apply(this, arguments));
   }
 
   Home.prototype.render = function render() {
@@ -18298,7 +18298,9 @@ var Home = function (_Components) {
   };
 
   return Home;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Components"]);
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (Home);
 
 /***/ })
 /******/ ]);
